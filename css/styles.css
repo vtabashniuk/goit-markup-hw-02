@@ -1,0 +1,78 @@
+/* ======= COLOR PALETTE ======= */
+
+/* main text color:                     #757575; */
+/* secondary text color:                #212121; */
+/* accent & first logo color:           #2196f3; */
+/* second logo color
+    on light background (black):        #000000; */
+/* second logo color
+    on dark background &
+   text on dark background (white):     #ffffff; */
+/* contacts color:                      rgba(255, 255, 255, 0.6); */
+
+:root {
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --black: #000000;
+  --white: #ffffff;
+  --conacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* ======= UTILITE CLASSES ======= */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* ======= END UTILITE CLASSES ======= */
+
+/* ======= HEADER ======= */
+/* === LOGO ===*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  color: var(--accent-color);
+}
+
+.logo-second-part {
+  color: var(--black);
+}
+
+/* === NAVIGATION & CONTACTS === */
+
+.site-navigation .link,
+.contacts .link {
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.site-navigation .link:hover,
+.contacts .link:hover,
+.site-navigation .link:focus,
+.contacts .link:focus,
+.site-navigation .link:active {
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+/* ======= END HEADER ======= */
