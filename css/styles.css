@@ -26,6 +26,7 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  background: #ffffff;
   color: var(--main-text-color);
 }
 
@@ -55,7 +56,6 @@ body {
 }
 
 /* === NAVIGATION & CONTACTS === */
-
 .site-navigation .link,
 .contacts .link {
   font-weight: 500;
@@ -76,3 +76,33 @@ body {
 }
 
 /* ======= END HEADER ======= */
+
+/* ======= MAIN ======= */
+/* ======= HERO ======= */
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  text-align: center;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.modal-button {
+  background: var(--accent-color);
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* ======= OUR ADVANTAGES ======= */
