@@ -40,16 +40,16 @@
       </ul>
     </header>
     <!-- OUR PROJECTS -->
-    <main>
-      <h1>Наши проекты</h1>
-      <ul>
-        <li><a href="">Все</a></li>
-        <li><a href="">Веб-сайты</a></li>
-        <li><a href="">Приложения</a></li>
-        <li><a href="">Дизайн</a></li>
-        <li><a href="">Маркетинг</a></li>
+    <main class="portfolio">
+      <h1 hidden>Наши проекты</h1>
+      <ul class="filter list">
+        <li><button type="button" class="modal-button">Все</button></li>
+        <li><button type="button" class="modal-button">Веб-сайты</button></li>
+        <li><button type="button" class="modal-button">Приложения</button></li>
+        <li><button type="button" class="modal-button">Дизайн</button></li>
+        <li><button type="button" class="modal-button">Маркетинг</button></li>
       </ul>
-      <ul>
+      <ul class="examples list">
         <li>
           <img
             src="./img/portfolio/our-projects/technokryack.jpg"
@@ -57,7 +57,7 @@
             width="370"
             height="294"
           />
-          <h2>Технокряк</h2>
+          <h2 class="title">Технокряк</h2>
           <p>Веб-сайт</p>
         </li>
         <li>
@@ -67,7 +67,7 @@
             width="370"
             height="294"
           />
-          <h2>Постер New Orlean vs Golden Star</h2>
+          <h2 class="title">Постер New Orlean vs Golden Star</h2>
           <p>Дизайн</p>
         </li>
         <li>
@@ -77,7 +77,7 @@
             width="370"
             height="294"
           />
-          <h2>Ресторан Seafood</h2>
+          <h2 class="title">Ресторан Seafood</h2>
           <p>Приложение</p>
         </li>
         <li>
@@ -87,7 +87,7 @@
             width="370"
             height="294"
           />
-          <h2>Проект Prime</h2>
+          <h2 class="title">Проект Prime</h2>
           <p>Маркетинг</p>
         </li>
         <li>
@@ -97,7 +97,7 @@
             width="370"
             height="294"
           />
-          <h2>Проект Boxes</h2>
+          <h2 class="title">Проект Boxes</h2>
           <p>Приложение</p>
         </li>
         <li>
@@ -107,7 +107,7 @@
             width="370"
             height="294"
           />
-          <h2>Inspiration has no Borders</h2>
+          <h2 class="title">Inspiration has no Borders</h2>
           <p>Веб-сайт</p>
         </li>
         <li>
@@ -117,7 +117,7 @@
             width="370"
             height="294"
           />
-          <h2>Издание Limited Edition</h2>
+          <h2 class="title">Издание Limited Edition</h2>
           <p>Дизайн</p>
         </li>
         <li>
@@ -127,7 +127,7 @@
             width="370"
             height="294"
           />
-          <h2>Проект LAB</h2>
+          <h2 class="title">Проект LAB</h2>
           <p>Маркетинг</p>
         </li>
         <li>
@@ -137,20 +137,24 @@
             width="370"
             height="294"
           />
-          <h2>Growing Business</h2>
+          <h2 class="title">Growing Business</h2>
           <p>Приложение</p>
         </li>
       </ul>
     </main>
     <!-- FOOTER -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <address>
+    <footer class="footer">
+      <a href="./index.html" class="logo link"
+        >Web<span class="logo-second-part">Studio</span></a
+      >
+      <address class="address">
         <p>г. Киев, пр-т Леси Украинки, 26</p>
       </address>
-      <ul>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+380991111111">+380 99 111 11 11</a></li>
+      <ul class="contacts list">
+        <li>
+          <a href="mailto:info@example.com" class="link">info@example.com</a>
+        </li>
+        <li><a href="tel:+380991111111" class="link">+380 99 111 11 11</a></li>
       </ul>
     </footer>
   </body>
